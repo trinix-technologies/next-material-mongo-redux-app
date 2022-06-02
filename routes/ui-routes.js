@@ -2,8 +2,7 @@ const routes = require("next-routes-extended");
 const routesImplementation = routes();
 
 function mapUiRoutes() {
-  routesImplementation.add("about", "/a1");
-  routesImplementation.add("createLogin", "/a2", "/login/CreateLogin");
+  routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
 }
 
 function addUiRoutes(server, app) {

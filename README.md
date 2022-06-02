@@ -13,3 +13,8 @@ Here we are using express for server routes.
 ```
 npm run dev
 ```
+
+## Test url's
+
+Custom Route for UI page - http://localhost:3000/login
+Custom Route for server api - http://localhost:3000/health/ping
