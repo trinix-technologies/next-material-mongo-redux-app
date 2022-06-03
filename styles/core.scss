@@ -1,0 +1,164 @@
+html {
+  //height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+}
+
+// #root {
+//   height: 100%;
+// }
+
+.text-highlighted {
+  color: #f9b934;
+
+  &__primary {
+    color: #3f51b5;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $primary-main;
+}
+
+.ace-github .ace_gutter {
+  background: #f3f3f3;
+}
+
+.ace-xcode .ace_gutter {
+  background: #f3f3f3;
+}
+
+.ace-dracula {
+  background-color: #121212;
+}
+
+.ace-dracula .ace_gutter {
+  background: #24242b;
+}
+
+// a:hover{
+//   color: $primary-main;
+//   text-decoration: underline;
+// }
+
+.textUnderline {
+  text-decoration: underline;
+}
+
+.textDecorationNone {
+  text-decoration: none;
+}
+
+.textTransformNone {
+  text-transform: none;
+}
+
+.footerText {
+  color: $gray-500 !important;
+}
+
+.footerLink {
+  color: $gray-500 !important;
+}
+
+.footerLink:hover {
+  color: $white !important;
+}
+
+.smartLink {
+  text-decoration: none;
+}
+
+.smartLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.codeCardCode {
+  text-decoration: none;
+  color: #000;
+}
+
+// .hljs{
+//   background: transparent;
+// }
+
+.paper-content {
+  word-break: break-word;
+  //margin-top: -1vh;
+  background: white;
+  padding: 50px;
+  @media screen and (max-width: $break-small) {
+    padding: 30px 10px;
+  }
+}
+
+.space-between-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.m5 {
+  margin: 5px;
+}
+.m10 {
+  margin: 10px;
+}
+.m15 {
+  margin: 15px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mr10 {
+  margin-right: 10px !important;
+}
+.mr15 {
+  margin-right: 15px !important;
+}
+.mr20 {
+  margin-right: 20px !important;
+}
+
+.mlr10 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.mlr20 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.mt10 {
+  margin-top: 10px !important;
+}
+.mt20 {
+  margin-top: 20px !important;
+}
+.mt30 {
+  margin-top: 30px !important;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+.pr20 {
+  padding-right: 20px;
+}
+.pr30 {
+  padding-right: 30px;
+}
