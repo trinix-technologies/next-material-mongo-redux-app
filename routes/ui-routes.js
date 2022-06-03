@@ -3,6 +3,15 @@ const routesImplementation = routes();
 
 function mapUiRoutes() {
   routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
+  // routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
+  // routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
+  // routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
+  // routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
+  // routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
+  // routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
+  // routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
+  // routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
+  // routesImplementation.add("createLogin", "/login", "/login/CreateLogin");
 }
 
 function addUiRoutes(server, app) {

@@ -3,6 +3,12 @@ const path = require("path");
 
 function mapServerRoutes(server) {
   server.use("/health", require("../server/api/health"));
+  // server.use("/health", require("../server/api/health"));
+  // server.use("/health", require("../server/api/health"));
+  // server.use("/health", require("../server/api/health"));
+  // server.use("/health", require("../server/api/health"));
+  // server.use("/health", require("../server/api/health"));
+  // server.use("/health", require("../server/api/health"));
 }
 
 function addServerApiRoutes(server, express) {
