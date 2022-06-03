@@ -8,6 +8,14 @@ Here we are using next-routes-extended for UI routes.
 
 Here we are using express for server routes.
 
+## Lib
+
+1. Next JS
+2. next-routes-extended
+3. Express
+4. Material
+5. SCSS
+
 ## How to run
 
 ```
